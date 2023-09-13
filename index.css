@@ -1,0 +1,41 @@
+body{
+  background-color:pink;
+  padding:50px
+}
+.calculator{
+  width:25%;
+  background-color:plum;
+  margin: auto;
+  padding:40px;
+  border-radius:10px ;
+}
+
+.screen{
+  width:95%;
+  height:60px;
+  background-color: aquamarine;
+  text-align: right;
+  padding:10px;
+  border-radius: 6px;
+}
+
+.buttons{
+  width: fit-content;
+  padding:30px;
+  font-size: 50px;
+  font-weight: 600;
+  margin:auto;
+}
+
+.buttons > div{
+  padding:4px;
+}
+
+button{
+  width:80px ;
+  height:80px;
+  border-radius:10px;
+  font-family: monospace;
+  font-weight: 600;
+  font-size: xx-large;
+}
