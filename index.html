@@ -8,35 +8,36 @@
 </head>
 <body>
   <div class="calculator" id="calculator">
-    <div class="screen" id="screen">0
+    <div class="screen" id="screen">
+      <p class="output" id="output"></p>
     </div>
-    <div class="buttons">
+    <div class="buttons" id="buttons">
       <div class="row1">
-        <button class="7" id="7">7</button>
-        <button class="8" id="8">8</button>
-        <button class="9" id="9">9</button>
-        <button class="add" id="add">+</button>
+        <button class="number" id="7" value="7">7</button>
+        <button class="number" id="8" value="8">8</button>
+        <button class="number" id="9" value="9">9</button>
+        <button class="operator" id="add" value="add">+</button>
       </div>
       <div class="row2">
-        <button class="4" id="4">4</button>
-        <button class="5" id="5">5</button>
-        <button class="6" id="6">6</button>
-        <button class="subtract" id="subtract">-</button>
+        <button class="number" id="4" value="4">4</button>
+        <button class="number" id="5" value="5">5</button>
+        <button class="number" id="6" value="6">6</button>
+        <button class="operator" id="subtract" value="subtract">-</button>
       </div>
       <div class="row3">
-        <button class="3" id="7">3</button>
-        <button class="2" id="8">2</button>
-        <button class="1" id="9">1</button>
-        <button class="multiply" id="muliply">x</button>
+        <button class="number" id="1" value="1">1</button>
+        <button class="number" id="2" value="2">2</button>
+        <button class="number" id="3" value="3">3</button>
+        <button class="operator" id="muliply"value="multiply" >x</button>
       </div>
       <div class="row4">
         <button class="clear" id="clear">C</button>
-        <button class="0" id="0">0</button>
-        <button class="equal" id="equal">=</button>
-        <button class="divide" id="divide">/</button>
+        <button class="number" id="0"value="0" >0</button>
+        <button class="equal" id="equal" value="equal">=</button>
+        <button class="operator" id="divide" value="divide" >/</button>
       </div>
     </div>
   </div>
-
 </body>
+<script src="index.js"></script>
 </html>
