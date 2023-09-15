@@ -45,4 +45,13 @@ font-size: 30px;
 border:none;
 }
 
+.operator,.clear, .equal{
+  background-color:bisque;
+  transition: backgroundColor 2s;
+}
+
+.operator:active, .clear:active, .equal:active{
+  background-color: pink;
+}
+
 
